@@ -105,4 +105,16 @@ def main():
             atm.withdraw_cash()
         elif choice == 3:
             atm.deposit_cash()
-        elif choice == 4
+        elif choice == 4:
+            break
+          elif choice == 4:
+            atm.change_pin()
+        elif choice == 5:
+            atm.view_transaction_history()
+        elif choice == 6:
+            break
+        else:
+            print("Invalid choice")
+
+if __name__ == "__main__":
+    main()
